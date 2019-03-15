@@ -27,7 +27,7 @@
 
     function loadHandler(e) {
         scrollHandler(e);
-        renderElement.style.height = window.innerHeight + 100*renderFrames + 'px';
+        renderElement.style.height = window.innerHeight + 40*renderFrames + 'px';
         minScroll = renderElement.offsetTop;
         maxScroll = renderElement.offsetTop + renderElement.offsetHeight;
     }
